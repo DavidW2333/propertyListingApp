@@ -1,0 +1,24 @@
+[
+  {
+    "id": 6,
+    "address": "99 gillies avenue",
+    "description": "badminton center",
+    "bedrooms": 4,
+    "bathrooms": 2,
+    "availableFrom": "2025-06-01",
+    "rent": 300,
+    "contactNumber": "012345678",
+    "trademeLink": "https://www.trademe.co.nz/a/property/residential/rent/listing/5328030304?bof=oTSg5EAf"
+  },
+  {
+    "id": 9,
+    "address": "96 dominion road",
+    "description": "Smart Realty Nz Limited Has A Team Of Specialists Who Are Familiar With All Kinds Of Properties Throughout Auckland Area. We Have East, West, South And North Four Offices Mainly Cover From Hobsonville To Bucklands Beach And From Albany To Pukekohe.\n\n",
+    "bedrooms": 5,
+    "bathrooms": 4,
+    "availableFrom": "2025-11-14",
+    "rent": 950,
+    "contactNumber": "012345678",
+    "trademeLink": null
+  }
+]

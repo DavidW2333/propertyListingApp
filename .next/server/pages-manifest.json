@@ -1,0 +1,13 @@
+{
+  "/_app": "pages/_app.js",
+  "/_error": "pages/_error.js",
+  "/_document": "pages/_document.js",
+  "/listings": "pages/listings.js",
+  "/": "pages/index.js",
+  "/api/get-listings": "pages/api/get-listings.js",
+  "/contact": "pages/contact.js",
+  "/testimonial": "pages/testimonial.js",
+  "/api/delete-listing": "pages/api/delete-listing.js",
+  "/admin": "pages/admin.js",
+  "/lettingManagement": "pages/lettingManagement.js"
+}
