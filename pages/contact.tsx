@@ -12,10 +12,10 @@ export default function ContactPage() {
         </h1>
 
         <div style={{ maxWidth: '600px', margin: '0 auto', backgroundColor: '#fff', padding: '2rem', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)' }}>
-          <p style={{ marginBottom: '1rem', color: '#4a5568' }}>Have a question or need support? Reach out to us!</p>
-          <p><strong>Email:</strong> info@propertylisting.co.nz</p>
-          <p><strong>Phone:</strong> 0800 RENTAL</p>
-          <p><strong>Office Hours:</strong> Mon–Fri, 9AM–5PM</p>
+          <p style={{ marginBottom: '1rem', color: '#4a5568' }}>Have a question or need support? Flick me an email!</p>
+          <p><strong>Email:</strong> david.wang023@gmail.com</p>
+          <p><strong>Phone:</strong> 0123456789</p>
+          <p><strong>Office Hours:</strong> Mon–Sun, 24h</p>
         </div>
       </main>
 

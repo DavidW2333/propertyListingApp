@@ -20,7 +20,7 @@ export default function Footer() {
   
         <div style={{ flex: 1 }}>
           <h3 style={{ fontSize: '1.2rem', marginBottom: '0.5rem' }}>Contact Us</h3>
-          <p>Email: info@propertylisting.co.nz</p>
+          <p>Email: david.wang023@gmail.com</p>
         </div>
   
         <div style={{ flex: 1 }}>

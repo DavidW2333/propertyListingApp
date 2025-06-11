@@ -1,22 +1,55 @@
 [
   {
-    "id": 6,
-    "address": "99 gillies avenue",
-    "description": "badminton center",
-    "bedrooms": 4,
+    "id": 10,
+    "address": "1111 abc streets",
+    "description": "This is a spacious 5 bedroom townhouse located right in the CBD",
+    "bedrooms": 5,
     "bathrooms": 2,
-    "availableFrom": "2025-06-01",
-    "rent": 300,
-    "contactNumber": "012345678",
-    "trademeLink": "https://www.trademe.co.nz/a/property/residential/rent/listing/5328030304?bof=oTSg5EAf"
+    "availableFrom": "2025-06-22",
+    "rent": 1050,
+    "contactNumber": "012344556778",
+    "trademeLink": "https://www.trademe.co.nz/a/property/office/6161049"
   },
   {
-    "id": 9,
-    "address": "96 dominion road",
-    "description": "Smart Realty Nz Limited Has A Team Of Specialists Who Are Familiar With All Kinds Of Properties Throughout Auckland Area. We Have East, West, South And North Four Offices Mainly Cover From Hobsonville To Bucklands Beach And From Albany To Pukekohe.\n\n",
-    "bedrooms": 5,
+    "id": 11,
+    "address": "1 david street",
+    "description": "This is a 2 bedroom apartment",
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "availableFrom": "2025-06-22",
+    "rent": 550,
+    "contactNumber": "012334567",
+    "trademeLink": "https://www.trademe.co.nz/a/property/office/6161049"
+  },
+  {
+    "id": 12,
+    "address": "9999 badminton road",
+    "description": "this is a badminton center for rent",
+    "bedrooms": 4,
     "bathrooms": 4,
-    "availableFrom": "2025-11-14",
+    "availableFrom": "2025-06-29",
+    "rent": 550,
+    "contactNumber": "0123445696",
+    "trademeLink": null
+  },
+  {
+    "id": 13,
+    "address": "45 james harry crescent",
+    "description": "welcome!",
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "availableFrom": "2025-06-08",
+    "rent": 850,
+    "contactNumber": "01234567",
+    "trademeLink": "https://www.trademe.co.nz/a/property/office/6161049"
+  },
+  {
+    "id": 14,
+    "address": "35 king Vince road",
+    "description": "this ia 2 bedroom house available for rent",
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "availableFrom": "2025-07-02",
     "rent": 950,
     "contactNumber": "012345678",
     "trademeLink": null
