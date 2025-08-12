@@ -7,7 +7,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
 
   try {
     const { password, listing } = req.body;  // Changed here
-    if (password !== 'AdminPassword') return res.status(403).json({ error: 'Unauthorized' });
+    if (password !== process.env.ADMIN_PASSWORD) return res.status(403).json({ error: 'Unauthorized' });
 
     const dataDir = path.join(process.cwd(), 'data');
     const filePath = path.join(dataDir, 'properties.json');
@@ -47,7 +47,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
       bedrooms: parseInt(listing.bedrooms, 10),
       bathrooms: parseInt(listing.bathrooms, 10),
       availableFrom: listing.availableFrom,
-      rent: parseInt(listing.rent, 10),  // Parse rent too
+      rent: parseInt(listing.rent, 10), 
       contactNumber: listing.contactNumber,
       trademeLink: listing.trademeLink || null,
     };

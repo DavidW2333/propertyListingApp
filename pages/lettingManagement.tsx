@@ -13,7 +13,7 @@ export default function LettingManagementPage() {
 
         <div style={{ maxWidth: '800px', margin: '0 auto', backgroundColor: '#fff', padding: '2rem', borderRadius: '10px', boxShadow: '0 4px 12px rgba(0, 0, 0, 0.05)', color: '#4a5568' }}>
           <h2 style={{ color: '#2c5282' }}>Letting Service</h2>
-          <p>We offer a full letting service that includes property marketing, tenant screening, viewings, and tenancy agreement signing. Let us handle the process end-to-end so you can rest easy.</p>
+          <p>We offer a full letting service that includes property marketing, tenant screening, viewings, and tenancy agreement signing.</p>
 
           <h2 style={{ color: '#2c5282', marginTop: '2rem' }}>Management Fees</h2>
           <ul style={{ lineHeight: '1.8' }}>
@@ -26,7 +26,7 @@ export default function LettingManagementPage() {
           <ul style={{ lineHeight: '1.8' }}>
             <li>✔️ Experienced property managers</li>
             <li>✔️ Detailed tenant background checks</li>
-            <li>✔️ Transparent communication & reporting</li>
+            <li>✔️ Transparent communication and reporting</li>
           </ul>
         </div>
       </main>

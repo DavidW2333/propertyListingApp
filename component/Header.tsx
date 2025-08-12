@@ -14,12 +14,13 @@ export default function Header() {
         padding: '1rem 2rem',
         display: 'flex',
         justifyContent: 'space-between',
+        flexWrap: 'wrap',
         alignItems: 'center',
         fontFamily:
           "'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
       }}
     >
-      <div style={{ display: 'flex', gap: '2rem', alignItems: 'center' }}>
+      <div style={{ display: 'flex', gap: '2rem', alignItems: 'center', flexWrap: 'wrap' }}>
         <a href="/" style={{ color: '#10100f', textDecoration: 'none', fontWeight: 'bold' }}>
           Home
         </a>
@@ -35,19 +36,23 @@ export default function Header() {
         <a href="/listings" style={{ color: '#10100f', textDecoration: 'none' }}>
           Rental listings
         </a>
+        <a href="/admin" style={{ color: '#10100f', textDecoration: 'none' }}>
+          Admin Login
+        </a>
       </div>
 
       <button
         onClick={() => router.push('https://apply.tenant.co.nz/tps7519?')}
         style={{
-          padding: '0.5rem 1rem',
-          backgroundColor: '#c14429',
+          padding: '1rem 2rem',
+          backgroundColor: '#0A0909',
           color: 'white',
           border: 'none',
-          borderRadius: '6px',
+          borderRadius: '0px',
           fontWeight: 'bold',
           cursor: 'pointer',
           transition: 'background-color 0.3s ease',
+          marginTop: '1rem',
         }}
         onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#e53e3e')}
         onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = '#f56565')}
