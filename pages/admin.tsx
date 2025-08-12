@@ -50,10 +50,9 @@ export default function AdminPage() {
   const [contactNumber, setContactNumber] = useState('');
   const [trademeLink, setTrademeLink] = useState('');
 
-  // New login state
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [passwordInput, setPasswordInput] = useState('');
-  const ADMIN_PASSWORD = 'AdminPassword';
+  //const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD;
 
   // Fetch listings on mount & after changes
   async function fetchListings() {
@@ -76,7 +75,7 @@ export default function AdminPage() {
 
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
-    if (passwordInput === ADMIN_PASSWORD) {
+    if (passwordInput === process.env.ADMIN_PASSWORD) {
       setIsLoggedIn(true);
       setPasswordInput('');
       setError('');
